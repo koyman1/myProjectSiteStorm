@@ -1,0 +1,101 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Радіатор Пласт</title>
+		<script src="https://kit.fontawesome.com/b673739ea8.js" crossorigin="anonymous"></script>
+		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<!-- Адаптив -->
+		<meta name="description" content="zap-kon-lviv.pp.ua - Заправка та ремонт автокондиціонерів">
+		<meta name="viewport" content="width=device-width">
+                <meta name="keywords" content="Заправка автокондиціонера, заправка автокондиціонерів львів, ремонт автокондиціонерів, ремонт автокондиціонерів у львові, ремонт автомобілів, львів, Львів, Сто Львів.">
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-220195504-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-220195504-1');
+</script>
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="page">
+		<!-- Оболочка для демонстрации -->
+		<div class="wrapper">
+			<!-- Контент -->
+			<header class="header">
+				<div class='container'>
+					<div class="header__body">
+						<a href="index.html" class="header__logo">
+							<h1>Радіатор Пласт</h1>
+						</a>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+				
+								<li>
+									<a href="index.html" class="header__link"><i class="fas fa-home"></i> Головна</a>
+								</li>
+								<li>
+									<a href="auu.html" class="header__link"><i class="fas fa-address-card"></i> Про нас</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>	
+			<div class="info">
+				<h1>Графік роботи:</h1>
+				<p>Пн - Пт 9:00 - 19:00<br>Сб 9:00 - 15:00<br>Неділя вихідний</p>
+				<h1>Наші контакти:</h1><br>
+					<a href="tel:+38 073 008 18 00"> +38 073 008 18 00</i></a>
+					<h1>Наше місцезнаходження:</h1>
+					<p>м.Львів, Вул Хуторівка 23</p><br>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1183.8961442745263!2d24.02461378845208!3d49.801875032650166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae796ef1ca96b%3A0xdcad0ac8a543e791!2z0JDQstGC0L7RgdC10YDQstGW0YEg0KDQsNC00ZbQsNGC0L7RgCDQn9C70LDRgdGC!5e1!3m2!1suk!2sfr!4v1632900778860!5m2!1suk!2sfr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		<!-- Поючаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/script.js"></script>
+		
+		<script type="text/javascript">
+			window.onscroll = function showHeader(){
+				var header = document.querySelector('.header');
+				if(window.pageYOffset > 80){
+					header.classList.add('header_fixed');
+				}else{
+					header.classList.remove('header_fixed');
+				}
+
+			}
+		</script>
+	</body>
+</html>

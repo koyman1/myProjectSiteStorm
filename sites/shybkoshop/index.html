@@ -1,0 +1,204 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>ShybkoShop</title>
+		<script src="https://kit.fontawesome.com/c81a99a147.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<!-- Адаптив -->
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="description" content=""Shybkoshop -це якісний одяг за низькими цінами та великими знижками.>
+		<meta name="viewport" content="width=device-width">
+                <meta name="keywords" content="Костюм, костюм дешево,костюм білий, костюм чорний, костюм зелений, костюм бірьозовий">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+
+		<div class="page">
+		<!-- Оболочка для демонстрации -->
+		<div class="wrapper">
+			<!-- Контент -->
+
+			<header>
+			<div class="header_logo">
+			  <a href="index.html" class="header__logo">
+			    <img src="img/logo.png" alt="ShybkoShop logo">
+			    <h1>ShybkoShop</h1>
+			  </a>
+			</div>
+			<div class="info">
+				<h1>Предсезонний розпродаж костюмів</h1><br>
+				<p>Замовляй прямо зараз, та отримуй знижку 15%!</p><br><br>
+				<img src="img\white.jpg"><br><br><br>
+				<h3>До кінця знижки залижилось:</h3>
+			</div>
+
+			<div class="timer">
+			  <div class="timer__item">
+			    <span class="timer__value" id="hours">08</span>
+			    <span class="timer__label">Годин</span>
+			  </div>
+			  <div class="timer__item">
+			    <span class="timer__value" id="minutes">53</span>
+			    <span class="timer__label">Хвилин</span>
+			  </div>
+			  <div class="timer__item">
+			    <span class="timer__value" id="seconds">47</span>
+			    <span class="timer__label">Секунд</span>
+			  </div>
+			</div>
+
+			
+			</header>
+
+
+			<div id="order-form-wrapper">
+			  <div id="order-form">
+			    <button id="close-button">x</button>
+			    <form id="form" action="sendmail.php" method="POST">
+				    <h2>Замовити</h2><br>
+				    <!-- Hidden Required Fields -->
+				    <input type="hidden" name="project_name" value="Shybkoshop">
+				    <input type="hidden" name="admin_email" value="Shybkoshop@gmail.com">
+				    <input type="hidden" name="form_subject" value="Form Subject">
+				    <!-- END Hidden Required Fields -->
+				    <input type="text" name="Name" placeholder="Ваше ім'я" required><br><br>
+				    <input type="text" name="Phone" placeholder="Ваш номер телефону"><br><br>
+				    <input type="text" name="Size" placeholder="Розмір" required><br><br>
+				    <input type="text" name="Comment" placeholder="Коментар"><br><br>
+				    <input type="hidden" name="Article" value=""> <!-- Add hidden input field for article information -->
+				    <button id="formbutt">Відправити</button>
+				</form>
+
+			  </div>
+			</div>
+	
+		<div class="carp">
+
+			<div class="car" id="car1" data-article="1">
+			    <img src="img\white.jpg"><br><br>
+			    <p><b>Розміри: 42-46, 48-50<br><br>Тканина: двунитка люкс</b></p><br><br>
+			    <p id="carpp"><b>699 грн</b></p>
+			    <br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="https://instagram.com/free_shop__18?igshid=NDk5N2NlZjQ="><img src="img\inst.png" id="cari"></a>
+			</div>
+
+			<div class="car" id="car2" data-article="2">
+				<img src="img\black.jpg"><br><br>
+			    <p><b>Розміри: 42-46, 48-50<br><br>Тканина: двунитка люкс</b></p><br><br>
+			    <p id="carpp"><b>699 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="https://instagram.com/free_shop__18?igshid=NDk5N2NlZjQ="><img src="img\inst.png" id="cari"></a>
+			</div>
+
+			<div class="car" id="car3" data-article="3">
+				<img src="img\orange.jpg"><br><br>
+			    <p><b>Розміри: 42-46, 48-50<br><br>Тканина: двунитка люкс</b></p><br><br>
+			    <p id="carpp"><b>699 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="https://instagram.com/free_shop__18?igshid=NDk5N2NlZjQ="><img src="img\inst.png" id="cari"></a>
+			</div>
+
+			<div class="car" id="car4" data-article="4">
+				<img src="img\white2.jpg"><br><br>
+			    <p><b>Розміри: 42-46, 48-50<br><br>Тканина: двунитка люкс</b></p><br><br>
+			    <p id="carpp"><b>699 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="https://instagram.com/free_shop__18?igshid=NDk5N2NlZjQ="><img src="img\inst.png" id="cari"></a>
+			</div>
+
+			<div class="car" id="car5" data-article="5">
+				<img src="img\green.jpg"><br><br>
+			    <p><b>Розміри: 42-46, 48-50<br><br>Тканина: двунитка люкс</b></p><br><br>
+			    <p id="carpp"><b>699 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="https://instagram.com/free_shop__18?igshid=NDk5N2NlZjQ="><img src="img\inst.png" id="cari"></a>
+			</div>
+
+			<div class="car" id="car6" data-article="6">
+				<img src="img\white3.jpg"><br><br>
+			    <p><b>Розміри: 42-46, 48-50<br><br>Тканина: двунитка люкс</b></p><br><br>
+			    <p id="carpp"><b>699 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="https://instagram.com/free_shop__18?igshid=NDk5N2NlZjQ="><img src="img\inst.png" id="cari"></a>
+			</div>
+		</div>
+			
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/script.js"></script>
+
+		<script>
+  // Функція, яка заповнює поле "Article" в залежності від артикула блоку
+  function fillArticle(blockId) {
+    // Знаходимо блок за ідентифікатором
+    var block = document.getElementById(blockId);
+    // Знаходимо значення "Article" в блоку
+    var article = block.getAttribute("data-article");
+    // Заповнюємо поле "Article" у формі
+    document.querySelector('input[name="Article"]').value = article;
+  }
+
+  // Додаємо обробник подій для кожної кнопки "Замовити"
+  var orderButtons = document.querySelectorAll('#order-button');
+  orderButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      // Отримуємо ідентифікатор блоку, який містить кнопку "Замовити"
+      var blockId = button.closest('.car').id;
+      // Заповнюємо поле "Article"
+      fillArticle(blockId);
+    });
+  });
+</script>
+<script type="text/javascript">
+	// Set the start time in seconds
+const startTime = ((8 * 60) + 53) * 60 + 47;
+
+// Get the timer elements
+const hoursElement = document.getElementById("hours");
+const minutesElement = document.getElementById("minutes");
+const secondsElement = document.getElementById("seconds");
+
+// Update the timer every second
+let currentTime = startTime;
+setInterval(() => {
+  // Calculate the remaining time
+  const hours = Math.floor(currentTime / 3600);
+  const minutes = Math.floor((currentTime % 3600) / 60);
+  const seconds = currentTime % 60;
+
+  // Update the timer elements
+  hoursElement.textContent = hours.toString().padStart(2, "0");
+  minutesElement.textContent = minutes.toString().padStart(2, "0");
+  secondsElement.textContent = seconds.toString().padStart(2, "0");
+
+  // Decrement the current time
+  currentTime--;
+
+  // Reset the timer if it reaches 0
+  if (currentTime < 0) {
+    currentTime = startTime;
+  }
+}, 1000);
+
+</script>
+		
+		
+	</body>
+</html>

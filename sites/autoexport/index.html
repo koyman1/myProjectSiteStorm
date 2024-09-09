@@ -1,0 +1,197 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>AutoExport</title>
+		<script src="https://kit.fontawesome.com/c81a99a147.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<!-- Адаптив -->
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+                <meta name="keywords" content="">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="page">
+		<!-- Оболочка для демонстрации -->
+		<div class="wrapper">
+			<!-- Контент -->
+			<p id="home" class="anonymous"></p>
+			<header class="header">
+				<div class='container'>
+					<div class="header__body">
+						<a href="index.html" class="header__logo">
+							<img src="img/logo1.png">
+						</a>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+				
+								<li>
+									<a href="#home" class="header__link">Главная</a>
+								</li>
+								<li>
+									<a href="#about" class="header__link">  О нас</a>
+								</li>
+								<li>
+									<a href="#auto" class="header__link">  Наши работы</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			</header>	
+			<div class="header__background">
+			  <img src="img/headerbg.jpg" alt="Header background image">
+			  <div class="header__text">
+			    <h1>Експорт автомобилей!</h1><br><br>
+			    <p>Експортируем автомобили и другой транспорт из стран Европы и США.</p><br><br>
+			  </div>
+			</div>
+
+			<button class="phone-button"><i class="fas fa-phone"></i></button>
+			<div class="phone-form">
+		  <button class="close-button">&times;</button>
+
+		  <form method="post" action="sendmail.php" id="form">
+		  	<h2>Заказать звонок</h2>
+			  <input type="text" name="name" placeholder="Ваше имя" required>
+			  <br>
+			  <input type="text" name="phone" placeholder="Ваш номер телефона" required>
+			  <br>
+			  <input type="text" name="question" placeholder="Сообщение">
+			  <br>
+			  <button type="submit">Отправить</button>
+			</form>
+
+		</div>
+
+	
+
+
+		<p id="about"></p>
+		<div class="gimg">
+			<h1><b>О нас</b></h1><br>
+			<div class="gim"><img src="img/logo1.png"><br><br><b><p>Експорт автомобилей и другого транспорта из стран Европы и США.<br><br> Наша компания на рынке доставки авто и их приобретения по всему Эуро союзу и странам СНГ более 5 лет 1000 довольных клиентов и отзывов если вам нужно подобрать авто, приобрести авто, а также доставить его с точки А в точку Б, тогда вам к нам!<br><br>Выкупим и доставим любое авто со всех аукционов , дилеров, площадок,партов и  привезём его к вам.</b><br><br>
+			<a href="https://instagram.com/pomoc_drogowa_warszawa_5210?igshid=ZDdkNTZiNTM="><img src="img\inst.png" id="gimsoc"></a>
+			<a href="https://www.facebook.com/profile.php?id=100067674681551"><img src="img\Facebook.png" id="gimsoc"></a><br><br>
+			<i class="fa-solid fa-phone"></i><a href="tel:+48786336402">+48786 336 402</a><br><br>
+			<i class="fa-solid fa-phone"></i><a href="tel:+48733235296">   +48733 235 296</a><br><br>
+			<i class="fa-solid fa-phone"></i><a href="tel:+48733182785">   +48733 182 785</a>
+			</div>
+		</div>
+
+		<p id="auto"></p>
+		<div class="carp">
+			<h1><b>Авто которые мы транспортировали</b></h1>
+			<p><b>Не все варианты!</b></p><br><br><br>
+			<div class="car" id="car">
+	    <h2><b>BMW 318D 2002</b></h2><br>
+	    <div class="swiper mySwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img\1.jpg"></div>
+	        </div>
+	    </div>
+	</div>
+
+	<div class="car" id="car">
+	<h2><b>FERRARI SF90 STRADALE 2022</b></h2><br>
+	    <div class="swiper mySwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img\2.jpg"></div>
+	        </div>
+	    </div>
+	</div>
+
+	<div class="car" id="car">
+	<h2><b>VOLKSWAGEN GOLF 2007</b></h2><br>
+	    <div class="swiper mySwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img\3.jpg"></div>
+	        </div>
+	    </div>
+	</div>
+
+	<div class="car" id="car">
+	<h2><b>OPEL OMEGA 2022</b></h2><br>
+	    <div class="swiper mySwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img\4.jpg"></div>
+	        </div>
+	    </div>
+	</div>
+
+	<div class="car" id="car">
+	<h2><b>Audi A6 2004</b></h2><br>
+	    <div class="swiper mySwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img\5.jpg"></div>
+	        </div>
+	    </div>
+	</div>
+
+	<div class="car" id="car">
+	<h2><b>Mercedes 2020 GLE 350 d 4Matic</b></h2><br>
+	    <div class="swiper mySwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img\6.jpg"></div>
+	        </div>
+	    </div>
+	</div>
+
+	<div class="car" id="car">
+	<h2><b>Mercedes-Benz GLS 450 2020</b></h2><br>
+	    <div class="swiper mySwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img\7.jpg"></div>
+	        </div>
+	    </div>
+	</div>
+
+	<div class="car" id="car">
+	<h2><b>Mazda 3 2012</b></h2><br>
+	    <div class="swiper mySwiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="img\8.jpg"></div>
+	        </div>
+	    </div>
+	</div>
+
+		</div>
+			
+			<footer style="background-color: white; padding: 20px; border-top: 1px solid #3762ba;">
+  <div style="display: flex; align-items: center;">
+    <a href="index.html" class="header__logo" style="margin-right: auto;">
+      <img src="img/logo1.png">
+    </a>
+    <nav>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li style="display: inline-block; margin-right: 20px;"><a href="#home" style="color: #3762ba; text-decoration: none;">Главная</a></li>
+        <li style="display: inline-block; margin-right: 20px;"><a href="#about" style="color: #3762ba; text-decoration: none;">О нас</a></li>
+        <li style="display: inline-block; margin-right: 20px;"><a href="#auto" style="color: #3762ba; text-decoration: none;">Авто в разборе</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+			
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/script.js"></script>
+		
+		
+	</body>
+</html>

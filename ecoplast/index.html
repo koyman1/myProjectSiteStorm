@@ -1,0 +1,225 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>big-bag.in.ua</title>
+		<script src="https://kit.fontawesome.com/c81a99a147.js" crossorigin="anonymous"></script>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<!-- Адаптив -->
+		<meta name="description" content="big-bag.in.ua">
+		<meta name="viewport" content="width=device-width">
+                <meta name="keywords" content="">
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-220195504-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-220195504-1');
+</script>
+	</head>
+	<body>
+		<div class="page">
+		<div class="wrapper">
+			<p id="index"></p>
+			<header class="header">
+				<div class='container'>
+					<div class="header__body">
+						<a href="index.html" class="header__logo">
+							<img src="logo.png"><br>
+							<h1>Екопласт</h1>
+						</a>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li>
+									<a href="#index" class="header__link"> Головна</a>
+								</li>
+								<li>
+									<a href="#ty" class="header__link"> Біг Беги</a>
+								</li>
+								<li>
+									<a href="#met" class="header__link"> Наше розташування</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			</header>
+			<div id="order-form-wrapper">
+			  <div id="order-form">
+			    <button id="close-button">x</button>
+			    <form id="form" action="sendmail.php" method="POST">
+				    <h2>Замовити</h2><br>
+				    <!-- Hidden Required Fields -->
+				    <input type="hidden" name="project_name" value="Заявка с сайта">
+				    <input type="hidden" name="admin_email" value="trenin858@gmail.com">
+				    <input type="hidden" name="form_subject" value="Заявка с сайта">
+				    <!-- END Hidden Required Fields -->
+				    <input type="text" name="Name" placeholder="Ваше ім'я" required><br><br>
+				    <input type="text" name="Phone" placeholder="Ваш номер телефону"><br><br>
+				    <input type="text" name="Comment" placeholder="Коментар"><br><br>
+				    <input type="hidden" name="Article" value="">
+				    <button id="formbutt">Відправити</button>
+				</form>
+
+			  </div>
+			</div>
+						<button class="phone-button"><i class="fas fa-phone"></i></button>
+						<a href="viber://chat?number=%2B380633273294"><button class="phone-button1"><i class="fa-brands fa-viber"></i></button></a>
+						<a href="tel:0633273294"><button class="phone-button2"><i class="fas fa-phone"></i></button></a>
+				<div class="crp">
+					<div class="cr">
+						<h1>ЕКОПЛАСТ</h1><br>
+						<p>Продаж б/у біг бегів різних розмірів і модифікацій.</p><br>
+						<h3>Від</h3><br>
+						<h2>100 ГРН</h2>
+					</div>
+					<div class="cr"><img src="cr.jpg"></div>
+
+					<div class="crt">
+						<div class="cont"><h1>Про нас</h1><p>Наша компаніяя займається виготовленням і ремонтом б/у біг-бегів.<br><br>У нас на складі завжди в наявності біг-беги різних розмірів і модифікацій.<br><br>Любая форма оплаты. НДС.<br><br>Скидки на оптові замовлення від 100 штук.<br><br>Складені і Упаковані прессом по 10 штук пачка.<br><br>В наявності багато різноманітних модифікацій біг-бегів, наявність уточнюйте.</p></div><br><br>
+				</div>
+			</div>
+				<div class="ablockp">
+					<h1>НАШІ ПЕРЕВАГИ</h1>
+					<div class="ablock">
+						<img src="p2.svg"><br><br>
+						<p>Перевіряєм товар перед відправкою.</p><br>
+					</div>
+					<div class="ablock">
+						<img src="3.png"><br><br>
+						<p>Відправляєм товар по всій Україні.</p><br>
+					</div>
+					<div class="ablock">
+						<img src="p4.svg"><br><br>
+						<p>Відправка товару в день замовлення.</p><br>
+					</div>
+				</div>
+				<p id="ty"></p>
+		<div class="carp">
+			<h1>Продаєм біг-беги наступних розмірів:</h1><br><br><br><br>
+			<div class="car" id="car1" data-article="1">
+			    <img src="t1.jpg"><br><br>
+			    <p><b>Двухпетлевий<br><br>75*75*130-140см.<br><br>Дно глухе, верх відкритий.</b></p><br><br>
+			    <p id="carpp"><b>120 грн</b></p>
+			    <br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="tel:0633273294">+38 063 327 32 94</a>
+			</div>
+
+			<div class="car" id="car2" data-article="2">
+				<img src="t1.jpg"><br><br>
+			    <p><b>Двухпетлевий<br><br>90*90*150см.<br><br>Дно глухе, верх відкритий.</p><br><br>
+			    <p id="carpp"><b>150 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="tel:0633273294">+38 063 327 32 94</a>
+			</div>
+
+			<div class="car" id="car5" data-article="5">
+				<img src="t4.jpg"><br><br>
+			    <p><b>4х стропний<br><br>90*90*180-210см.</b></p><br><br>
+			    <p id="carpp"><b>200 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="tel:0633273294">+38 063 327 32 94</a>
+			</div><br>
+
+			<div class="car" id="car3" data-article="3">
+				<img src="t2.jpg"><br><br>
+			    <p><b>Однопетлевий<br><br>80*80*140<br><br>Bерх відкритий, глухе дно.</b></p><br><br>
+			    <p id="carpp"><b>100 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="tel:0633273294">+38 063 327 32 94</a>
+			</div>
+
+			<div class="car" id="car3" data-article="3">
+				<img src="t3.jpg"><br><br>
+			    <p><b>4х стропний<br><br>90*90*120<br><br>клапан фартук.</b></p><br><br>
+			    <p id="carpp"><b>150 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="tel:0633273294">+38 063 327 32 94</a>
+			</div>
+
+			<div class="car" id="car6" data-article="6">
+				<img src="t5.jpg"><br><br>
+			    <p><b>4х стропний<br><br>90*90*140-160см</b></p><br><br>
+			    <p id="carpp"><b>170 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="tel:0633273294">+38 063 327 32 94</a>
+			</div>
+
+			<div class="car" id="car6" data-article="6">
+				<img src="t6.jpg"><br><br>
+			    <p><b>4х стропний<br><br>105*105*220см.</b></p><br><br>
+			    <p id="carpp"><b>200 грн</b></p><br><br>
+			    <button id="order-button">Замовити</button><br><br>
+			    <a href="tel:0633273294">+38 063 327 32 94</a>
+			</div>
+		</div>
+		<div class="crp">
+					<div class="cr">
+						<h3>Виготовляєм і продаєм вкладиші в ЖД вагони і накриття.</h3><br>
+						<h2>Ціна 3500грн/шт.</h2><br><br>
+						<a href="tel:0633273294">+38 063 327 32 94</a>
+					</div>
+					<div class="cr" id="cri">
+						<img src="cr2.png">
+					</div>
+				</div>
+		<p id="met"></p>
+		<p id="au"></p>
+		<div class="info1"><br>
+			<div class="info11">
+				<h1>Наше розташування</h1><br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d4393.941775047359!2d35.074192821758395!3d48.3671459634892!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDjCsDIyJzAyLjMiTiAzNcKwMDQnMjkuMiJF!5e0!3m2!1suk!2sua!4v1681715409850!5m2!1suk!2sua" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="footer">
+				<a href="tel:0633273294">+38 063 327 32 94</a><br>
+				<a href="index.html">big-bag.in.ua</a><br><br>
+				<p>Copyright © 2024 <a href="index.html"></a></p>
+			</div>
+			</div>
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- файл JS скриптов -->
+		<script src="script.js"></script>
+		
+		<script type="text/javascript">
+			window.onscroll = function showHeader(){
+				var header = document.querySelector('.header');
+				if(window.pageYOffset > 100){
+					header.classList.add('header_fixed');
+				}else{
+					header.classList.remove('header_fixed');
+				}
+
+			}
+		</script>
+		<script>
+  function fillArticle(blockId) {
+    var block = document.getElementById(blockId);
+    var article = block.getAttribute("data-article");
+    document.querySelector('input[name="Article"]').value = article;
+  }
+
+  var orderButtons = document.querySelectorAll('#order-button');
+  orderButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      var blockId = button.closest('.car').id;
+            fillArticle(blockId);
+    });
+  });
+</script>
+	</body>
+</html>

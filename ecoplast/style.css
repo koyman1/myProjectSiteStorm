@@ -265,18 +265,19 @@ html,body{
   line-height: 1.6;
   margin-bottom: 15px;
   text-align: left;
+  color: black;
 }
 .footer{
 	width: 100%;
 	text-align: center;
-	background-color: #101c2c;
+	background-color: #2E7D32;
 	border-top: 1px solid white;
 	padding: 10px;
 	margin: 20px 0px 0px 0px;
 	display: block;
 }
-.footer a,p{
-	color: #7f7f7f;
+.footer a,p, h1{
+	color: white;
 }
 .ablockp{
 	width: 100%;
@@ -441,7 +442,7 @@ color: red;
   right: 20px;
   z-index: 3;
   border-radius: 50%;
-  background-color: #1e88e5;
+  background-color: #101c2c;
   color: #fff;
   font-size: 30px;
   width: 60px;
@@ -463,7 +464,7 @@ color: red;
   right: 20px;
   z-index: 4;
   border-radius: 50%;
-  background-color: #4caf50;
+  background-color: #8c60c3;
   color: #fff;
   font-size: 30px;
   width: 60px;
@@ -482,7 +483,7 @@ color: red;
   right: 20px;
   z-index: 4;
   border-radius: 50%;
-  background-color: #f44336;
+  background-color: #4caf50;
   color: #fff;
   font-size: 30px;
   width: 60px;
@@ -650,7 +651,7 @@ color: red;
 	display: inline-block;
 	margin: 0px 0px 0px 0px;
 }
-.info11 iframe{
+.footer iframe{
 	width: 100%;
 }
 .alli {
